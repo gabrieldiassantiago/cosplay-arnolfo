@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="images/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vercel</title>
+    <script src="https://kit.fontawesome.com/2d19cb643d.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="sass/styles.css" />
+</head>
+<body>
+    <header>
+        <nav id="main-nav navegar">
+            <a href="#"><img src="images/logo2.svg" class="logo" alt=""></a>
+            <a href="#">Inicio</a>
+            <a href="#develop">Explorar</a>
+            <a href="#start">Projetos</a>
+            <button onclick="dark()" class="darkmode-btn-desktop"><img id="iconbg" class="darkmode-icon-desktop" src="images/icons8-sun.svg"></button>
+            <div id="toggle-btn">
+                <span class="line"></span>
+                <span class="line"></span>
+            </div>
+            <div id="mob-nav">
+                <a class="nav-link" href="#">Inicio</a>
+                <a class="nav-link" href="#">Explorar</a>
+                <a class="nav-link" href="#develop">Projetos</a>
+                <button onclick="dark()" class="darkmode-btn-mobile"><img class="darkmode-icon-mobile" src="images/icons8-sun.svg"></button>
+            </div>
+        </nav>
+    </header>
+
+    <section id="hero">
+
+        <h2>Cosplay.</h2>
+        <h2>Tecnologia.</h2>
+        <h2>Inovação.</h2>
+
+        <div class="btns">
+            <a href="#start">Explorar projetos </a>
+            <a href="#">Acompanhar evento</a>
+        </div>
+
+        <p>Vercel combines the best developer experience with an obsessive focus on end-user performance.
+            Our platform enables frontend teams to do their best work.</p>
+
+    </section>
+
+    <section id="develop">
+        <h6>Explorar a eletiva </h6>
+        <span class="path-line"></span>
+        <span class="circled-number">1</span>
+        <span class="gradient-word">Cosplay</span>
+    </section>
+
+    <section id="start">
+        <h3>Das telas para o ao vivo</h3>
+        <div class="pars">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur, odio necessitatibus veritatis fugiat omnis deleniti nihil aliquam suscipit similique eveniet quidem, iusto illo aperiam sunt culpa in repellat libero neque?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium est deserunt molestiae soluta ea sapiente veniam tempora eveniet, voluptates quae. Sint minima maiores amet et nulla sapiente, a veniam at!</p>
+        </div>
+        <div class="flex-container cosplay-images">
+            <div class="left">
+                <img class="mySlides" src="images/Imagem 11.jpeg">
+                <img class="mySlides" src="images/Imagem 2.jpeg">
+                <img class="mySlides" src="images/Imagem 3.jpeg">
+                <img class="mySlides" src="images/Imagem 4.jpeg">
+                <img class="mySlides" src="images/Imagem 5.jpeg" alt="">
+                <img class="mySlides" src="images/Imagem 6.jpeg" alt="">
+            </div>
+            <div class="right container-conteudo">
+                <div>
+                    <h4>O trabalho em equipe</h4>
+                    <p>Durante a eletiva, ambos alunos contribuem um com o outro entre si, a fim de 
+                        realizar projetos
+                    </p>
+                </div>
+                <div>
+                    <h2>Dos desenhos para a tela</h2>
+                    <p>A eletiva Cosplay trás os super-heróis mais famosos para o ao vivo, construindo roupas, juntamente
+                        com a equipe de adereços e demais equipes
+
+                    </p>
+                </div>
+                <div>
+                    <h4>A criatividade da a vida</h4>
+                    <p>A criatividade é a alma dos projetos, em nossa eletiva, é possível ver ideias surgidas pelos próprios
+                        alunos, a fim de construir projetos além
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="preview">
+        <h6>A tecnologia anda conosco</h6>
+        <span class="path-line"></span>
+        <span class="circled-number">2</span>
+        <span class="gradient-word">Tecnologia</span>
+    </section>
+
+    <section id="accelerate">
+        <h3>Tecnologia é a alma</h3>
+        <p>Frontend development is not meant to be a solo activity. The Vercel platform makes it a collaborative
+            experience with deploy previews for every code change, by seamlessly integrating with GitHub, GitLab, and
+            Bitbucket.</p>
+
+        <div class="flex-container">
+            <div class="flex-item">
+                <img class="slides2" src="images/Imagem 2.jpeg">
+                <img class="slides2" src="images/Imagem 3.jpeg" alt="">
+            </div>
+            <div class="flex-item">
+                <h4>Texto1 aqui</h4>
+                <p>Import your repo with one click, then push. Our built-in CI/CD system triggers for every code change.
+                </p>
+            </div>
+        </div>
+        <div class="flex-container">
+            <div class="flex-item">
+                <img src="https://blog.iprocess.com.br/wp-content/uploads/2021/11/placeholder.png" alt="Git">
+            </div>
+            <div class="flex-item">
+                <h4>Texto1 aqui</h4>
+                <p>Every Git branch and PR receives a live, production-like URL that everyone on your team can visit.
+                </p>
+            </div>
+        </div>
+        <div class="flex-container">
+            <div class="flex-item">
+                <img src="https://blog.iprocess.com.br/wp-content/uploads/2021/11/placeholder.png" alt="Git">
+            </div>
+            <div class="flex-item">
+                <h4>Texto1 aqui</h4>
+                <p>Avoid surprises by iterating with your entire team. Test from the perspective of your users, on every
+                    platform.
+                </p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="ship">
+        <h6>e também</h6>
+        <span class="path-line"></span>
+        <span class="circled-number">3</span>
+        <span class="gradient-word">Inovação</span>
+    </section>
+
+    <section id="delight">
+        <h3>A criatividade em primeiro lugar</h3>
+        <div class="pars">
+            <p>Developers love Next.js, the open source React framework Vercel built together with Google and Facebook.
+                Next.js powers the biggest websites like Airbnb and Twilio, for use cases in e-commerce, travel, news,
+                and marketing.</p>
+            <p>Vercel is the best place to deploy any frontend app. Start by deploying with zero configuration to our
+                global edge network. Scale dynamically to millions of pages without breaking a sweat.</p>
+        </div>
+        <div class="img-container">
+            <img src="images/earth.png" alt="earth">
+        </div>
+
+        <!-- <div class="stats">
+            <div class="flex-container">
+                <div class="flex-item">
+                    <span class="num">70</span>
+                    <span class="word">CITIES</span>
+                </div>
+                <div class="flex-item">
+                    <span class="num">4.5B</span>
+                    <span class="word">REQUESTS PER WEEK</span>
+                </div>
+                <div class="flex-item">
+                    <span class="num">90BP</span>
+                    <span class="word">DATA SERVED</span>
+                </div>
+                <div class="flex-item">
+                    <span class="num">99.99%</span>
+                    <span class="word">GUARANTEED UPTIME</span>
+                </div>
+            </div>
+        </div> -->
+
+        <h6>EM ESPECIAL, AOS PROFESSORES: MANOEL, JEAN E MAURO</h6>
+
+    </section>
+
+
+    <footer>Copyright © <span id="datenow"></span> TEAM Cosplay Todos direitos reservados.</footer>
+    <script src="js/main.js"></script>
+</body>
+</html>

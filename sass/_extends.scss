@@ -1,0 +1,43 @@
+// --------------------------------------------------------------------------------- Extends ******
+%h3 {
+  letter-spacing: -0.05em;
+  font-size: 8vmin;
+  font-weight: 700;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  text-align: center;
+}
+
+%h6 {
+  font-size: 12px;
+  letter-spacing: 0.25rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+%path-line {
+  height: 100px;
+  width: 1px;
+  display: block;
+  margin: 10px auto 0;
+}
+
+%circled-number {
+  display: block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 38px;
+  margin: auto;
+  text-align: center;
+}
+
+%gradient-word {
+  display: block;
+  margin-top: 10px;
+  font-size: 28px;
+  font-weight: 700;
+}
