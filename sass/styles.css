@@ -182,8 +182,13 @@ section {
 }
 
 .logo {
-  width: 160px;
-  height: 55px;
+  width: 175px;
+  height: auto;
+  margin: 0 -12px;
+  margin-bottom: 5px;
+  text-align: center;
+  justify-content: center;
+  display: inline-block;
 }
 
 header {
@@ -307,12 +312,16 @@ header nav #mob-nav a:last-of-type:hover {
 }
 #hero h2 {
   text-align: center;
-  font-size: 17vmin;
-  font-weight: 700;
+  font-size: 18vmin;
+  font-weight: 750;
+  text-transform: none;
+  text-decoration: none;
   letter-spacing: -0.011em;
-  line-height: 110%;
+  line-height: 120%;
   margin: 0;
   padding: 0;
+  text-decoration: none;
+  border: 1px solid transparent;
 }
 #hero h2::-moz-selection {
   background-color: transparent;

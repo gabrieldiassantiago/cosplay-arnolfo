@@ -157,7 +157,7 @@ header {
   width: 100vw;
   h2 {
     text-align: center;
-    font-size: 17vmin;
+    font-size: 15vmin;
     font-weight: 700;
     letter-spacing: -0.011em;
     line-height: 110%;
@@ -384,6 +384,12 @@ header {
   width: 55px;
   height: 35px;
   margin: 0 auto;
+  display: flex;
+
+}
+
+.input[type="text" i] {
+  display: flex;
 
 }
 
